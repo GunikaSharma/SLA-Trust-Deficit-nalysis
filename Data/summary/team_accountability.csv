@@ -1,0 +1,31 @@
+team,service_line,tickets,breach_rate,reclass_rate,avg_nps
+Team_8,Infrastructure,5680,88.7,30.8,60.4
+Team_5,Infrastructure,5565,88.4,30.8,60.5
+Team_7,Infrastructure,5617,88.2,30.8,60.6
+Team_10,Infrastructure,5639,88.1,30.7,60.7
+Team_6,Infrastructure,5821,88.2,30.4,60.7
+Team_9,Infrastructure,5590,89.2,30.0,60.4
+Team_2,Infrastructure,5728,88.5,30.0,60.5
+Team_1,Infrastructure,5793,88.4,29.1,60.5
+Team_3,Infrastructure,5757,88.7,29.1,60.7
+Team_4,Infrastructure,5598,88.4,29.1,60.5
+Team_9,BPO,2754,88.2,17.0,60.8
+Team_8,BPO,2858,89.2,16.3,60.8
+Team_2,BPO,2869,88.5,16.2,60.5
+Team_10,BPO,2874,87.5,16.2,60.6
+Team_3,BPO,2777,88.3,16.0,60.7
+Team_7,BPO,2803,88.2,15.7,60.7
+Team_4,BPO,2835,89.1,15.7,60.5
+Team_1,BPO,2842,89.0,15.7,60.5
+Team_5,BPO,2822,88.1,15.5,60.5
+Team_6,BPO,2764,89.1,15.1,60.7
+Team_8,Application Support,5678,88.4,7.6,60.6
+Team_9,Application Support,5636,88.2,7.6,60.5
+Team_6,Application Support,5652,87.6,7.3,60.4
+Team_10,Application Support,5739,88.3,7.1,60.4
+Team_1,Application Support,5647,88.4,7.0,60.3
+Team_4,Application Support,5659,88.5,7.0,60.6
+Team_2,Application Support,5756,88.3,6.9,60.6
+Team_7,Application Support,5632,88.4,6.8,60.5
+Team_5,Application Support,5596,89.3,6.8,60.7
+Team_3,Application Support,5731,88.7,6.6,60.6
