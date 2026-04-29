@@ -153,22 +153,22 @@ fig.suptitle("Monthly SLA Compliance Trend — Actual vs Reported", fontsize=13,
 
 for ax, sl in zip(axes, service_lines):
     sub = monthly[monthly["service_line"] == sl].sort_values("month")
-    months_short = [m[-2:] for m in sub["month"]]   # show just month number
+    months_short = list(sub["month"])   # show just month number
     ax.plot(months_short, sub["actual_pct"],   color=COL_RED,   marker="o", linewidth=2, label="Actual",   markersize=5)
     ax.plot(months_short, sub["reported_pct"], color=COL_GREEN, marker="s", linewidth=2, label="Reported", markersize=5, linestyle="--")
     ax.fill_between(months_short, sub["actual_pct"], sub["reported_pct"], alpha=0.15, color=COL_AMBER, label="Gap")
     ax.set_title(sl, fontsize=11, fontweight="bold")
     ax.set_xlabel("Month (2023)", fontsize=9)
     ax.tick_params(axis="x", rotation=45)
-    ax.set_ylim(55, 90)
+    ax.set_ylim(0, 100)
     if ax == axes[0]:
         ax.set_ylabel("SLA Compliance %", fontsize=10)
     ax.legend(fontsize=8)
 
 plt.tight_layout()
-plt.savefig("charts/03_monthly_trend.png", dpi=150, bbox_inches="tight")
+plt.savefig("Charts/03_monthly_trend.png", dpi=150, bbox_inches="tight")
 plt.close()
-print("Saved: charts/03_monthly_trend.png")
+print("Saved: Charts/03_monthly_trend.png")
 
 # ─────────────────────────────────────────────────────────────
 # ANALYSIS 4: Team Accountability
