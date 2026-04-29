@@ -2,7 +2,7 @@
 
 > **Infosys / TCS / Wipro: How silent SLA reclassification is eroding client trust one missed deadline at a time**
 
-![Dashboard Preview](dashboard/dashboard_preview.png)
+![Dashboard Preview](Screenshots/q1_compliance_gap.png)
 
 ---
 
@@ -122,16 +122,16 @@ Or connect Power BI to your MySQL database: Get Data → MySQL Database → loca
 ## Charts
 
 ### Compliance Gap by Service Line
-![Compliance Gap](charts/01_compliance_gap.png)
+![Compliance Gap](Charts/01_compliance_gap.png)
 
 ### NPS vs Reclassification Rate (Pearson r = −0.82)
-![NPS Correlation](charts/02_nps_correlation.png)
+![NPS Correlation](Charts/02_nps_correlation.png)
 
 ### Monthly Compliance Trend
-![Monthly Trend](charts/03_monthly_trend.png)
+![Monthly Trend](Charts/03_monthly_trend.png)
 
 ### Team Accountability
-![Team Accountability](charts/04_team_accountability.png)
+![Team Accountability](Charts/04_team_accountability.png)
 
 ---
 
@@ -139,9 +139,9 @@ Or connect Power BI to your MySQL database: Get Data → MySQL Database → loca
 
 | Query | Screenshot |
 |---|---|
-| Compliance gap by service line | ![](screenshots/q2_compliance_gap.png) |
-| Team accountability | ![](screenshots/q5_team_accountability.png) |
-| Chain of evidence (CTE) | ![](screenshots/q10_chain_of_evidence.png) |
+| Compliance gap by service line | ![](Screenshots/q2_team_risk1.png) |
+| Team accountability | ![](Screenshots/q3_nps_by_client.png) |
+| Chain of evidence (CTE) | ![](Screenshots/q4_chain_of_evidence.png) |
 
 ---
 
